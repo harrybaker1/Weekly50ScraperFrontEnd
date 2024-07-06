@@ -1,0 +1,38 @@
+/* QuizPage.css */
+#quiz-page {
+    text-align: center;
+    padding: 20px;
+    background-color: #5b7065;
+    color: #f0e5de;
+    font-family: Arial, sans-serif;
+  }
+  
+  .quiz-header {
+    margin-bottom: 20px;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #90EE90;
+    color: #000;
+  }
+  
+  .quiz-questions {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .quiz-questions p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .question-number {
+    color: #00FF00;
+    font-weight: bold;
+  }
+  
