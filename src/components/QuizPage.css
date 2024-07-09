@@ -180,8 +180,8 @@ select:active {
   select {
     text-align: center;
     justify-content: center;
-    font-size: 32px;
-    height: 60px;
+    font-size: 28px;
+    height: 50px;
   }
   
   .answer-button {
