@@ -26,7 +26,7 @@ const QuizPage = () => {
         setSelectedQuizNumber(response.data[0].quiz_number);
       }
     } catch (err) {
-      setError('Error fetching quizzes. Please try again later.');
+      setError('Error fetching quizzes.');
     } finally {
       setLoading(false);
     }
@@ -43,7 +43,7 @@ const QuizPage = () => {
       });
       setQuizData(response.data);
     } catch (err) {
-      setError('Error fetching quiz data. Please try again later.');
+      setError('Error fetching quiz data.');
     } finally {
       setLoading(false);
     }
